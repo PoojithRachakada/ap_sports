@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <?php include "menu.php";?>
 <html>
-    <title>Fitness Test</title>
+    <title>physiology Test</title>
     <body>
         <div class="bg-img">
-            <form class="container" method="post" action="fitnessinsert.php">
-                <h1>FITNESS DETAILS</h1><br>
+            <form class="container" method="post" action="physiologyinsert.php">
+                <h1>PHYSIOLOGICAL DETAILS</h1><br>
                 Name:<input type="text" name="name" placeholder="name"><br>
-                Speed(m/h):<input type="int" name="speed" placeholder="30mtrs Run"><br>
-                Agility(min):<input type="int" name="agility" placeholder="4*10 Shuffle Run"><br>
-                Power(cm):<input type="int" name="power1"placeholder="Vertical jump">
-                                <input type="int" name="power2" placeholder="Broad jump"><br>
-                Flexibility(cm):<input type="int" name="flex" placeholder=" Flexibility"><br>
-                Endurence(Time):<input type="int" name="endu1"placeholder=" run12m">
-                                    <input type="int" name="endu2"placeholder=" rum1800m"><br>
-                                    <input class="btn" type="submit" value="submit">
+                Heart Rate:<input type="int" name="heartrate" placeholder="Heartrate"><br>
+                pulse Rate:<input type="int" name="pulserate" placeholder="pulserate"><br>
+                Distolic:<input type="int" name="distolic" placeholder="distolic"><br>
+                psistolic:<input type="int" name="psistolic" placeholder="Heartrate"><br>
+                Respiration:<input type="int" name="respPve" placeholder="+ve"><br>
+                <input type="int" name="respNve" placeholder="-ve"><br>
+                oxygen capacity:<input type="int" name="oxygencapacity" placeholder="Oxygen Capacity"><br>
+                Haemoglobin:<input type="int" name="haemoglobin" placeholder="haemoglobin"><br>
+                Body Consumptions:<input type="int" name="consumptions" placeholder="Body Consumptions"><br>
+                <input class="btn" type="submit" value="submit">
+                
         </div>
             </form>
     </body>
 </html>
+
 <style>
 body, html {
   height: 100%;

@@ -2,11 +2,11 @@
     <body>
         <div class="menu">
         <a href="home1.php">Home</a>
-        <a href="page.php">Personal Details</a>
+        <a href="personal.php">Personal Details</a>
         <a href="fitness.php">Fitness details</a>
         <a href="">Skill Test</a>
-        <a href="">Anthropermatic</a>
-        <a href="">Physiological</a>
+        <a href="anthropermatic.php">Anthropermatic</a>
+        <a href="physiology.php">Physiological</a>
         <a href="display.php">Display</a>
         </div>
     </body>

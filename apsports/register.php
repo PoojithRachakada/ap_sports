@@ -13,7 +13,7 @@
                 <input name="mobile" id="mob" placeholder="ENTER MOBILE" type="number" ><br><br>
                 <input name="submit" type="submit" id="sub" value="REGISTER">
             </form>
-            <a href="project.php" class="home">GOTO LOGIN PAGE..</a>
+            <a href="home.php" class="home">GOTO LOGIN PAGE..</a>
 
         </body>
     </head>

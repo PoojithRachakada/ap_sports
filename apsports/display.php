@@ -64,7 +64,12 @@ mysqli_select_db($link,"sportslogin");
 </html>
 <style>
 body{
-background-image: url("8.jpg");
+    background-image: url("12.jpg");
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     }
 .sel{
     text-align:center;

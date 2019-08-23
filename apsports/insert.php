@@ -24,7 +24,7 @@ $sql1 = "INSERT INTO details(names,email)
 VALUES ('$name','$email')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "THANKYOU FOR REGISTERING";
+    header("location:home.php");
 }
 if (mysqli_query($conn, $sql1)) {
    
@@ -32,7 +32,9 @@ if (mysqli_query($conn, $sql1)) {
 }
 
 else {
-    echo "PASSWORDS DOESNOT MATCH";
+    echo "<script type='text/javascript'>alert('password not match');
+    location='register.php';
+    </script>";
 }
 }
 

@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <?php include "menu.php";?>
 <html>
-    <title>Fitness Test</title>
+    <title>anthropermatic Test</title>
     <body>
         <div class="bg-img">
-            <form class="container" method="post" action="fitnessinsert.php">
-                <h1>FITNESS DETAILS</h1><br>
+            <form class="container" method="post" action="anthropermaticinsert.php">
+                <h1>ANTHRPERMATIC DETAILS</h1><br>
                 Name:<input type="text" name="name" placeholder="name"><br>
-                Speed(m/h):<input type="int" name="speed" placeholder="30mtrs Run"><br>
-                Agility(min):<input type="int" name="agility" placeholder="4*10 Shuffle Run"><br>
-                Power(cm):<input type="int" name="power1"placeholder="Vertical jump">
-                                <input type="int" name="power2" placeholder="Broad jump"><br>
-                Flexibility(cm):<input type="int" name="flex" placeholder=" Flexibility"><br>
-                Endurence(Time):<input type="int" name="endu1"placeholder=" run12m">
-                                    <input type="int" name="endu2"placeholder=" rum1800m"><br>
-                                    <input class="btn" type="submit" value="submit">
+                Arm Length:<input type="int" name="armlength" placeholder="Arm Length"><br>
+                Leg length:<input type="int" name="leglength" placeholder="Leg length"><br>
+                Trunk Length:<input type="int" name="trunklength" placeholder="Trunk Length"><br>
+                Hand Grith:<input type="int" name="handgrith" placeholder="Hand Grith"><br>
+                Calf Grith:<input type="int" name="calfgrith" placeholder="Calf Grith"><br>
+                Shoulder width:<input type="int" name="shoulderwidth" placeholder="Shoulder Width"><br>
+                Hip Width:<input type="int" name="hipwidth" placeholder="Hip Width"><br>
+                <input class="btn" type="submit" value="submit">
+                
         </div>
             </form>
     </body>
 </html>
+
 <style>
 body, html {
   height: 100%;
