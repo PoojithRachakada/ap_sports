@@ -9,8 +9,8 @@
         <a href="fitness.php">Fitness details</a>
         <a href="anthropermatic.php">Anthropermatic</a>
         <a href="physiology.php">Physiological</a>
-        <a href="display.php">Display</a>
-        <div id="login"><a href="home.php"><i class="fas fa-sign-in-alt"></i> Login</a></div>
+        <a href="userdisplay.php">Display</a>
+        <div id="login"><a href="home.php"><i class="fas fa-sign-in-alt"></i> Logout</a></div>
         </div>
         
     </body>

@@ -10,7 +10,7 @@ mysqli_select_db($link,"sportslogin");
        if(isset($_POST["get"])){
         $names=$_POST["select"];
         $email=$_POST["select"];
-       $sql="SELECT `id`, `names`, `email`, `age`, `dob`, `ht`, `wt`, `speed`, `agility_intime`, `power1_Vertical_Jump_cm`, `power2_Broad_Jump_cm`, `flexibility_cm`, `endurence_12m_run`, `endurence_1800m_run` FROM `details` WHERE names='$names' OR email='$email'";
+       $sql="SELECT `id`, `names`, `age`, `dob`, `ht`, `wt`, `speed`, `agility_intime`, `power1_Vertical_Jump_cm`, `power2_Broad_Jump_cm`, `flexibility_cm`, `endurence_12m_run`, `endurence_1800m_run` FROM `details` WHERE names='$names'";
         $result=mysqli_query($link,$sql);
         if(mysqli_num_rows($result) > 0){
             if(mysqli_num_rows($result) > 0){
@@ -19,7 +19,6 @@ mysqli_select_db($link,"sportslogin");
                         echo "<tr>";
                         echo "<tr><td>id</td><td>" . $row['id'] . "</td><tr>";
                         echo "<tr><td>Name</td><td>" . $row['names'] . "</td><tr>";
-                        echo "<tr><td>email</td><td>" . $row['email'] . "</td><tr>";
                         echo "<tr><td>age</td><td>" . $row['age'] . "</td><tr>";
                         echo "<tr><td>dob</td><td>" . $row['dob'] . "</td><tr>";
                         echo "<tr><td>ht</td><td>" . $row['ht'] . "</td><tr>";
