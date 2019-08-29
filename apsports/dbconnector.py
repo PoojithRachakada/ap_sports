@@ -9,7 +9,7 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT names FROM details")
+mycursor.execute("SELECT dob FROM details")
 
 myresult = mycursor.fetchall()
 

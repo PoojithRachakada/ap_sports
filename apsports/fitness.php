@@ -6,7 +6,6 @@
         <div class="bg-img">
             <form class="container" method="post" action="fitnessinsert.php">
                 <h1>FITNESS DETAILS</h1><br>
-                Name:<input type="text" name="name" placeholder="name"><br>
                 Speed(m/h):<input type="int" name="speed" placeholder="30mtrs Run"><br>
                 Agility(min):<input type="int" name="agility" placeholder="4*10 Shuffle Run"><br>
                 Power(cm):<input type="int" name="power1"placeholder="Vertical jump">
@@ -33,7 +32,7 @@ body, html {
   
   background-image: url("12.jpg");
 
-  min-height: 800px;
+  min-height: 820px;
 
   
   background-position: center;

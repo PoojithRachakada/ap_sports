@@ -5,8 +5,7 @@
     </title>
     <body><div class="bg-img">
            <form class="container" action="personalinsert.php" method="post">
-                <h1>Personal Details</h1>
-                Name:<input type="text"name="name"><br>
+                <h1>Personal Details</h1>              
                 Age:<input type="int" name="age" ><br>
                 DOB:<input type="date"name="dob"><br>
                 Height:<input type="int" name="height"><br>

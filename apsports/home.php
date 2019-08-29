@@ -6,7 +6,7 @@
     <body class="body">
         <h1 class="lg">PLEASE ENTER YOUR CREDENTIALS</h1><br>
         <form action="login.php" method="post">
-            <input class="user" name="email" type="email" placeholder="EMAIL" action><br><br>
+            <input class="user" name="uniqid" type="text" placeholder="ID" action><br><br>
             <input class="pass" name="password" type="password" placeholder="PASSWORD" value="" required><br><br>
             <input class="buton" name="submit" type="submit" value="LOG IN"><br>
         </form>

@@ -11,15 +11,16 @@ if ($conn->connect_error) {
 
 $sql = "CREATE TABLE users (
     id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+    uniqid CHAR(30) NOT NULL,
     names VARCHAR(30) NOT NULL,
     email VARCHAR(30) NOT NULL,
     passwords VARCHAR(30) NOT NULL,
     mobile VARCHAR(30) NOT NULL
     )";
 $sql1 = "CREATE TABLE details (
-    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
-    names VARCHAR(30) NOT NULL,
-    email VARCHAR(30) NOT NULL
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    uniqid CHAR(30) NOT NULL, 
+    names VARCHAR(30) NOT NULL
 )";
     
     if ($conn->query($sql) === TRUE) {

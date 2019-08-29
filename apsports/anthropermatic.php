@@ -5,8 +5,7 @@
     <body>
         <div class="bg-img">
             <form class="container" method="post" action="anthropermaticinsert.php">
-                <h1>ANTHRPERMATIC DETAILS</h1><br>
-                Name:<input type="text" name="name" placeholder="name"><br>
+                <h1>ANTHROPERMATIC DETAILS</h1><br>
                 Arm Length:<input type="int" name="armlength" placeholder="Arm Length"><br>
                 Leg length:<input type="int" name="leglength" placeholder="Leg length"><br>
                 Trunk Length:<input type="int" name="trunklength" placeholder="Trunk Length"><br>
@@ -35,7 +34,7 @@ body, html {
   
   background-image: url("12.jpg");
 
-  min-height: 800px;
+  min-height: 900px;
 
   
   background-position: center;

@@ -11,7 +11,7 @@
                 <input name="password" id="pas" placeholder="ENTER PASSWORD" type="password" required><br><br>
                 <input name="rpassword" id="rpas" placeholder="RE-ENTER PASSWORD" type="password" ><br><br>
                 <input name="mobile" id="mob" placeholder="ENTER MOBILE" type="number" ><br><br>
-                <input name="submit" type="submit" id="sub" value="REGISTER">
+                <input class="buton"name="submit" type="submit" id="sub" value="REGISTER">
             </form>
             <a href="home.php" class="home">GOTO LOGIN PAGE..</a>
 
@@ -20,7 +20,7 @@
 
 <style>
         body{
-            background-image: url("3.webp"); 
+            background-image: url("12.jpg"); 
             background-repeat: no-repeat;
             background-size: 100%;           
         }
@@ -29,9 +29,20 @@
     font-family:'Times New Roman', Times, serif;
     color:aliceblue;
 }
+.buton{
+    border-radius: 5px;
+    position: absolute;
+    left:650px;
+    top:240px;
+    width:100px;
+    height:30px;
+    cursor: pointer;
+    background-color: rgb(255, 18, 18);
+    color: aliceblue;
+}
 .reg{
     text-align:center;
-    text-shadow:0 5px 0 rgb(9, 235, 28);
+    text-shadow:0 2px 0 rgb(9, 235, 28);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:rgb(253, 14, 14);
 }

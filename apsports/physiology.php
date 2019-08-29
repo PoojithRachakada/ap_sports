@@ -6,7 +6,6 @@
         <div class="bg-img">
             <form class="container" method="post" action="physiologyinsert.php">
                 <h1>PHYSIOLOGICAL DETAILS</h1><br>
-                Name:<input type="text" name="name" placeholder="name"><br>
                 Heart Rate:<input type="int" name="heartrate" placeholder="Heartrate"><br>
                 pulse Rate:<input type="int" name="pulserate" placeholder="pulserate"><br>
                 Distolic:<input type="int" name="distolic" placeholder="distolic"><br>
@@ -37,7 +36,7 @@ body, html {
   
   background-image: url("12.jpg");
 
-  min-height: 800px;
+  min-height: 1050px;
 
   
   background-position: center;

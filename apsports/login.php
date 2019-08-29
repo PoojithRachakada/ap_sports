@@ -1,5 +1,6 @@
 <?php
-
+session_start();
+$_SESSION["uniqid"]=$_POST["uniqid"];
 $username = "root"; 
 $password = ""; 
 $database = "sportslogin"; 
@@ -10,7 +11,7 @@ if(isset($_POST["submit"])){
 if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) {
         $field1name = $row["passwords"];
-        $name=$row["names"];  
+        $name=$row["uniqid"];  
           
  if($_POST["password"]==$field1name)
  {  

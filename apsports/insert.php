@@ -17,14 +17,17 @@ $email = $_POST['mail'];
 $password = $_POST['password'];
 $rpassword = $_POST['rpassword'];
 $mobile = $_POST['mobile'];
+$uniqid=uniqid(APSP);
 if($password==$rpassword){
-$sql = "INSERT INTO users(names,email,passwords,mobile)
-VALUES ('$name','$email','$password','$mobile')";
-$sql1 = "INSERT INTO details(names,email)
-VALUES ('$name','$email')";
+$sql = "INSERT INTO users(uniqid,names,email,passwords,mobile)
+VALUES ('$uniqid','$name','$email','$password','$mobile')";
+$sql1 = "INSERT INTO details(uniqid,names)
+VALUES ('$uniqid','$name')";
 
 if (mysqli_query($conn, $sql)) {
-    header("location:home.php");
+    echo "<script type='text/javascript'>alert('This is your ID :$uniqid');
+    location='home.php';
+    </script>";
 }
 if (mysqli_query($conn, $sql1)) {
    
